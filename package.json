@@ -20,6 +20,10 @@
     ".tsx": {
       "style": "module",
       "parser": "typescript"
+    },
+    ".cjs": {
+      "style": "module",
+      "parser": "babylon"
     }
   },
   "dependencies": {
