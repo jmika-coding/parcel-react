@@ -2,6 +2,7 @@
   "name": "parcel_react",
   "version": "1.0.0",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "start": "yarn run eslint && parcel src/index.html",
     "build": "parcel build",

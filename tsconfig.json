@@ -12,7 +12,7 @@
     // "jsxImportSource": "",                            /* Specify module specifier used to import the JSX factory functions when using `jsx: react-jsx*`.` */
     
     /* Modules */
-    "module": "commonjs",                                /* Specify what module code is generated. */
+    "module": "ES2022",                                /* Specify what module code is generated. */
 
     /* Interop Constraints */
     "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
@@ -29,6 +29,6 @@
     /* Completeness */
     "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
   },
-  "include": [".eslintrc.js", "src/**/*"],
+  "include": [".eslintrc.cjs", "src/**/*"],
   "exclude": ["src/**/*.html", "src/**/*.css"]
 }
