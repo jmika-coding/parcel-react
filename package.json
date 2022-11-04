@@ -1,0 +1,42 @@
+{
+  "name": "parcel_react",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn run eslint && parcel src/index.html",
+    "build": "parcel build",
+    "eslint": "eslint src",
+    "prettier": "prettier src"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": false,
+    "printWidth": 100
+  },
+  "importSort": {
+    ".tsx": {
+      "style": "module",
+      "parser": "typescript"
+    }
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint": "^8.26.0",
+    "eslint-plugin-react": "7.31.10",
+    "import-sort-style-module": "6.0.0",
+    "parcel": "^2.7.0",
+    "prettier": "2.7.1",
+    "prettier-plugin-import-sort": "0.0.7",
+    "process": "^0.11.10",
+    "typescript": "^4.8.4"
+  }
+}
